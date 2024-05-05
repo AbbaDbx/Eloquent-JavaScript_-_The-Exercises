@@ -39,7 +39,7 @@ function fizzingAndBuzzing(number) {
 
 //CHESSBOARD:
 
-/*function chessboard() {
+function chessboard() {
 	let mainString = "";
 	let space = " ";
 	let symbol = "#";
@@ -71,8 +71,8 @@ function fizzingAndBuzzing(number) {
 	return mainString;
 }
 
-makeChessboard = chessboard();
-console.log(makeChessboard);*/
+//makeChessboard = chessboard();
+//console.log(makeChessboard);
 
 function modifiedChessboard(size = 8) {
 	let mainString = "";
@@ -156,7 +156,7 @@ function modifiedChessboard(size = 8) {
         return mainString;
 }
 	
-let makeModifiedChessboard = modifiedChessboard(10);
-console.log(makeModifiedChessboard);
+//let makeModifiedChessboard = modifiedChessboard(-10);
+//console.log(makeModifiedChessboard);
 
 
